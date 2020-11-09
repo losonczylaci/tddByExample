@@ -19,4 +19,4 @@ Strategies to make a test green:
 
 - Fake it - Return a constant and gradually replace constants with variables until you have the real code.
 - Use obvious implementation. - Type in the real implementation.
-
+- Triangulate
