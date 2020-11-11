@@ -25,3 +25,10 @@ Strategies to make a test green:
 
 A risk has been introduced. If test for equality fails to accurately check that it is working, then the test for multiplication could also fail. This is the risk we actively manage in TDD.
 From time to time our reasoning will fail us and a defect will slip through. We learn our lesson about the test we should have written and move on.
+
+
+# Chapter 6
+
+This guy :D
+
+> Write the tests you wish you had. If you don't, you will eventually break something while refactoring. Then you'll get bad feelings about refactoring and stop doing it so much. Then your design will deteriorate. You'll be fired. Your dog will leave you. You will stop paying attention to your nutrition. Your teeth will go bad. So, to keep your teeth healthy, retroactively test before refactoring.
