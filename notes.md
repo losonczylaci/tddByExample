@@ -32,3 +32,7 @@ From time to time our reasoning will fail us and a defect will slip through. We 
 This guy :D
 
 > Write the tests you wish you had. If you don't, you will eventually break something while refactoring. Then you'll get bad feelings about refactoring and stop doing it so much. Then your design will deteriorate. You'll be fired. Your dog will leave you. You will stop paying attention to your nutrition. Your teeth will go bad. So, to keep your teeth healthy, retroactively test before refactoring.
+
+## Chapter 7
+
+Solution is smelly a bit, since we'd like to provide a solution that makes sense in the finance domain, not in the domain of Java objects. Since we don't have the concept of currency, this will do it for the moment.
