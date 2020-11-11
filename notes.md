@@ -20,3 +20,8 @@ Strategies to make a test green:
 - Fake it - Return a constant and gradually replace constants with variables until you have the real code.
 - Use obvious implementation. - Type in the real implementation.
 - Triangulate
+
+## Chapter 4
+
+A risk has been introduced. If test for equality fails to accurately check that it is working, then the test for multiplication could also fail. This is the risk we actively manage in TDD.
+From time to time our reasoning will fail us and a defect will slip through. We learn our lesson about the test we should have written and move on.
