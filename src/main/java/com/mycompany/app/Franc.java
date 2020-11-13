@@ -2,12 +2,11 @@ package com.mycompany.app;
 
 public class Franc extends Money {
 
-    public Franc(int amount) {
-        this.amount = amount;
+    public Franc(int amount, String currency) {
+        super(amount, currency);
     }
 
-    Franc times(int multiplier) {
-        return new Franc(multiplier * this.amount);
+    Money times(int multiplier) {
+        return Money.franc(multiplier * this.amount);
     }
-
 }

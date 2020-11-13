@@ -2,12 +2,12 @@ package com.mycompany.app;
 
 public class Dollar extends Money {
 
-    public Dollar(int amount) {
-        this.amount = amount;
+    public Dollar(int amount, String currency) {
+        super(amount, currency);
     }
 
-    Dollar times(int multiplier) {
-        return new Dollar(multiplier * this.amount);
+    Money times(int multiplier) {
+        return Money.dollar(multiplier * this.amount);
     }
 
 }
