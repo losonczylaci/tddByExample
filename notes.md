@@ -36,3 +36,14 @@ This guy :D
 ## Chapter 7
 
 Solution is smelly a bit, since we'd like to provide a solution that makes sense in the finance domain, not in the domain of Java objects. Since we don't have the concept of currency, this will do it for the moment.
+
+## Chapter 10
+
+Wrote `toString()` without test in the middle of a red bar. `toString()` is
+used for debugging, the risk of it failing is low.
+
+We are about to experiment with something -> instead of careful reasoning,
+since we have test that will take care of us let's make the change 
+and ask the compiler.
+
+Backed out an experiment and wrote another test. Making the test work made the experiment work.
