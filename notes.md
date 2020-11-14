@@ -47,3 +47,7 @@ since we have test that will take care of us let's make the change
 and ask the compiler.
 
 Backed out an experiment and wrote another test. Making the test work made the experiment work.
+
+## Chapter 11
+
+Some of the tests are redundant with the new code structure, we got rid of them.
