@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-public class Money {
+public class Money implements Expression {
 
     Money(int amount, String currency) {
         this.amount = amount;
@@ -14,6 +14,10 @@ public class Money {
 
     Money times(int multiplier) {
         return new Money(multiplier * this.amount, currency);
+    }
+
+    Expression plus(Money addend) {
+        return new Money(this.amount + addend.amount, currency);
     }
 
     String currency() {

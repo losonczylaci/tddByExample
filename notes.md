@@ -51,3 +51,7 @@ Backed out an experiment and wrote another test. Making the test work made the e
 ## Chapter 11
 
 Some of the tests are redundant with the new code structure, we got rid of them.
+
+## Chapter 12
+
+I guess I just realized the importance of metaphors in software development. It is much easier to name classes using metaphors and they can be really catchy.
