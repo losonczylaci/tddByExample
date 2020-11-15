@@ -55,3 +55,7 @@ Some of the tests are redundant with the new code structure, we got rid of them.
 ## Chapter 12
 
 I guess I just realized the importance of metaphors in software development. It is much easier to name classes using metaphors and they can be really catchy.
+
+## Chapter 13
+
+Kent distinguishes code and data duplication. We know what code duplication is. Data duplication could be a faked return value in the production code.
