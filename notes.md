@@ -26,7 +26,6 @@ Strategies to make a test green:
 A risk has been introduced. If test for equality fails to accurately check that it is working, then the test for multiplication could also fail. This is the risk we actively manage in TDD.
 From time to time our reasoning will fail us and a defect will slip through. We learn our lesson about the test we should have written and move on.
 
-
 # Chapter 6
 
 This guy :D
@@ -59,3 +58,8 @@ I guess I just realized the importance of metaphors in software development. It 
 ## Chapter 13
 
 Kent distinguishes code and data duplication. We know what code duplication is. Data duplication could be a faked return value in the production code.
+
+## Chapter 14
+
+- Wrote a test (`testArrayEquals) to check an assumption about the operation of Java
+- Made a mistake in a refactoring and chose to forge ahead, writhing another test to isolate the problem
