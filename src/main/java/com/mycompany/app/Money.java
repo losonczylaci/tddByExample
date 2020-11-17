@@ -12,7 +12,7 @@ public class Money implements Expression {
         return amount == money.amount && currency == money.currency;
     }
 
-    Expression times(int multiplier) {
+    public Expression times(int multiplier) {
         return new Money(multiplier * this.amount, currency);
     }
 
