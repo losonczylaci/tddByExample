@@ -63,3 +63,22 @@ Kent distinguishes code and data duplication. We know what code duplication is. 
 
 - Wrote a test (`testArrayEquals) to check an assumption about the operation of Java
 - Made a mistake in a refactoring and chose to forge ahead, writhing another test to isolate the problem
+
+## Chapter 17 - Retrospective
+
+When working on a large system:
+- Parts you touch all the time should be rock solid, so we can make daily changes confidently.
+- As drifting out to the periphery test tests can be spottier and the design uglier.
+
+When all the obvious task are done, running a code critic.
+
+### Metrics 
+
+- Test FW metrics (wow, that is new). Minutes between runs.
+- classes, functions, lines, lines/function...
+- Number of changes per refactoring (I think Kent means number of changes between running the test-cases)
+
+### Test quality 
+
+- statement coverage
+- defect insertion (change to production code, see how much test fails [see](jester.sourceforge.net))
