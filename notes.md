@@ -72,13 +72,17 @@ When working on a large system:
 
 When all the obvious task are done, running a code critic.
 
-### Metrics 
+### Metrics
 
 - Test FW metrics (wow, that is new). Minutes between runs.
 - classes, functions, lines, lines/function...
 - Number of changes per refactoring (I think Kent means number of changes between running the test-cases)
 
-### Test quality 
+### Test quality
 
 - statement coverage
 - defect insertion (change to production code, see how much test fails [see](jester.sourceforge.net))
+
+## Chapter 18
+
+- Implemented functionality, by first hard-wiring it, and then making it more general by replacing constants with variables

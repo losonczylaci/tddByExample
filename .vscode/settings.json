@@ -1,0 +1,9 @@
+{
+    "triggerTaskOnSave.tasks": {
+        "test": [
+            "test.py"
+        ]
+    },
+    "editor.formatOnSave": true,
+    "python.pythonPath": "/usr/bin/python"
+}
