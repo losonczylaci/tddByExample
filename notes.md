@@ -86,3 +86,9 @@ When all the obvious task are done, running a code critic.
 ## Chapter 18
 
 - Implemented functionality, by first hard-wiring it, and then making it more general by replacing constants with variables
+
+## Chapter 19
+
+- `3A` - Arrange, Act, Assert (Create some object, stimulate, check)
+- Arrange is often same from test to test, whereas act and assert are unique.
+- How often do we want to create a new object. Performance <-> Isolation
