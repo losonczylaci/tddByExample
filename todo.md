@@ -9,3 +9,4 @@
 [x] Log string in WasRun
 [x] Report failed tests
 [ ] Catch and report setUp errors
+[x] Distinguish exceptions from AssertionError

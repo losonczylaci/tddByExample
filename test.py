@@ -14,7 +14,7 @@ class TestCase:
         try:
             method = getattr(self, self.name)
             method()
-        except:
+        except AssertionError:
             result.testFailed()
         self.tearDown()
 
@@ -60,7 +60,7 @@ class WasRun(TestCase):
         self.log += "tearDown "
 
     def testBrokenMethod(self):
-        raise Exception
+        raise AssertionError
 
 
 class TestCaseTest(TestCase):
