@@ -92,3 +92,8 @@ When all the obvious task are done, running a code critic.
 - `3A` - Arrange, Act, Assert (Create some object, stimulate, check)
 - Arrange is often same from test to test, whereas act and assert are unique.
 - How often do we want to create a new object. Performance <-> Isolation
+
+## Chapter 23
+
+- duplication is always a bad thing, unless you look at it as a motivation to find the missing design element
+- 
